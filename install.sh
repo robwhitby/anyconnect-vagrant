@@ -26,5 +26,5 @@ rm license.txt
 cd ~/anyconnect/posture
 ./posture_install.sh --no-license --no-prompt
 
-mv /opt/.cisco/certificates/ca /opt/.cisco/certificates/ca.orig
-ln -sf /etc/ssl/certs/ /opt/.cisco/certificates/ca
+#mv /opt/.cisco/certificates/ca /opt/.cisco/certificates/ca.orig
+#ln -sf /etc/ssl/certs/ /opt/.cisco/certificates/ca

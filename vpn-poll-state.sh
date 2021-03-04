@@ -9,7 +9,7 @@ readonly BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "$BASE_DIR"
 
 while (true); do
-  date --iso=seconds
+  date
   ./vpn-state.sh
   echo " "
   sleep 60
